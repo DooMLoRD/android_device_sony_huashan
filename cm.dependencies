@@ -8,6 +8,14 @@
     "target_path": "device/sony/qcom-common"
   },
   {
+    "repository": "android_device_sony_viskan-common",
+    "target_path": "device/sony/viskan-common"
+  },
+  {
+    "repository": "android_kernel_sony_huashan",
+    "target_path": "kernel/sony/huashan"
+  },
+  {
     "repository": "android_packages_apps_FMRadio",
     "target_path": "packages/apps/FmRadio"
   },
