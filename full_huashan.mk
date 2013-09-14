@@ -35,12 +35,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources-xhdpi.mk)
 
-# Inherit from hayabusa device
-$(call inherit-product, device/sony/HuaShan/HuaShan.mk)
+# Inherit from huashan device
+$(call inherit-product, device/sony/huashan/huashan.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_HuaShan
-PRODUCT_DEVICE := HuaShan
+PRODUCT_NAME := full_huashan
+PRODUCT_DEVICE := huashan
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia SP

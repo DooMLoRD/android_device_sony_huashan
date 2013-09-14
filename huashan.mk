@@ -14,10 +14,12 @@
 # limitations under the License.
 #
 
+# Inherit the viskan-common definitions
+$(call inherit-product, device/sony/viskan-common/viskan.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/HuaShan/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/huashan/overlay
 PRODUCT_COPY_FILES += \
-    device/sony/HuaShan/zImage:kernel
+    device/sony/huashan/kernel
 
 
 # This device is xhdpi.  However the platform doesn't
@@ -33,4 +35,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
 
 
-$(call inherit-product-if-exists, vendor/sony/hayabusa/hayabusa-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/huashan/huashan-vendor.mk)
