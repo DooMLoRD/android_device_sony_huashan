@@ -5,6 +5,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/huashan/include
 
 TARGET_KERNEL_CONFIG := cm_viskan_huashan_defconfig
 
+# Keep this as a fallback
+TARGET_PREBUILT_KERNEL := device/sony/huashan/kernel
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 18
 
