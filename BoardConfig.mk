@@ -37,7 +37,7 @@ BOARD_CUSTOM_GRAPHICS := ../../../device/sony/HuaShan/recovery/recovery.c
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/sony/HuaShan/recovery/recovery-keys.c
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := M36h,HuaShan
+TARGET_OTA_ASSERT_DEVICE := M36h,HuaShan,C5302,C5303
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/huashan/include
 
